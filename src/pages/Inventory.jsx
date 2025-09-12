@@ -9,7 +9,7 @@ const Inventory = ({ donations, charities, onUpdateDonation }) => {
     const matchesSearch = donation.donorName.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          donation.foodType.toLowerCase().includes(searchTerm.toLowerCase())
     return matchesFilter && matchesSearch
-  })
+  })  
 
   const getStatusColor = (status) => {
     switch (status) {

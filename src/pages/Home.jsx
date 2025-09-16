@@ -58,9 +58,7 @@ const Home = ({ totalDonations, totalCharities, totalDistributions, onPageChange
         </div>
         <div className="hero-image">
           <div className="hero-graphic">
-            <div className="food-icon">🍎</div>
-            <div className="arrow">→</div>
-            <div className="heart-icon">❤️</div>
+            
           </div>
         </div>
       </section>
